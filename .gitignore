@@ -12,6 +12,7 @@ tmtags
 
 ## VIM
 *.swp
+*~
 
 ## RubyMine
 .idea
@@ -23,3 +24,5 @@ rdoc
 pkg
 
 ## PROJECT::SPECIFIC
+lib/file.sass
+lib/file.css
