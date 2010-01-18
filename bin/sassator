@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-require File.join(File.dirname(__FILE__), '..', 'lib', 'sassator')
+$LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib')
+require 'sassator' 
 

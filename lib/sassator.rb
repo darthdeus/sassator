@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'sassator/compiler'
 
-
 compiler = Sassator::Compiler.new
-compiler.watch_files('*.sass')
+ARGV.each { |arg| compiler.watch_folder(arg) }
 compiler.run
