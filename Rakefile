@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "sassator"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Automatic SASS compilator for non-ruby projects}
+    gem.description = %Q{Automatic SASS compilator for non-ruby projects.}
     gem.email = "darthdeus@gmail.com"
     gem.homepage = "http://github.com/darthdeus/sassator"
     gem.authors = ["Jakub Arnold"]    
